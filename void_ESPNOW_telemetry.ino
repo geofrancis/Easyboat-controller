@@ -3,9 +3,9 @@ void ESPNOW(){
   TELEMETRY_DATA.eh1 = val;
   TELEMETRY_DATA.eh2 = angle;
   TELEMETRY_DATA.eh3 = avoidmode;
-  TELEMETRY_DATA.eh4 = temp.temperature;
-  TELEMETRY_DATA.eh5 = g.gyro.z;
-  TELEMETRY_DATA.eh6 = a.acceleration.z;
+  TELEMETRY_DATA.eh4 = 0;
+  TELEMETRY_DATA.eh5 = 0;
+  TELEMETRY_DATA.eh6 = 0;
 
 
   

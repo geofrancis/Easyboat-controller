@@ -1,7 +1,7 @@
 
-neopixel(){
+void neopixel(){
   
-}
+
   for(int i=0;i<NUMPIXELS;i++){
 
     // pixels.Color takes RGB values, from 0,0,0 up to 255,255,255
