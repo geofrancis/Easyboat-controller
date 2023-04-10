@@ -1,7 +1,8 @@
 # Easyboat-controller
 Integrated model boat controller.
 
-Designed for ESP32-S2;
+Designed for ESP32-S2
+
 working
 
 RC input, Lidar, RC output, Mode select, Mixer
