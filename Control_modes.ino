@@ -1,7 +1,8 @@
 /////////////////////////////////////////////////CONTROL MODES///////
 void controlmodes(){
 
-  
+
+
 
 // AVOID AVERAGE LEFT + RIGHT----------------------------------------------
    // find the left and right average sum
@@ -18,7 +19,7 @@ if (yaw < 1200) {yaw = 1200;}
   else {(yaw = RCRud);
   }
 
- yawsmooth = LIDARPIDOUTPUT;
+ yawsmooth = yaw;
  
   }
 // AVERAGE THROTTLE AVOID-----------------------------------------------
@@ -114,4 +115,10 @@ if (rightwallaverage<leftwallaverage){
 if (wallsteer > 1600){wallsteer = 1600;}
 if (wallsteer < 1400) {wallsteer = 1400;}
 }
+
+
+
+
+
+
 }
