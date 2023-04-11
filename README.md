@@ -8,7 +8,7 @@ working
 RC input, RC output, Mode select, Mixer
 
 added but untested.
-MPU6050 YAW + ROLL stabilisation, GPS Navigation, ESP-NOW RC + telemetry, Relay output, RADAR, 
+MPU6050 YAW + ROLL stabilisation, GPS Navigation, ESP-NOW RC + telemetry, Relay output, RADAR, Neopixel
 
 yet to add
 Sonar, OSD
